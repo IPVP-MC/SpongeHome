@@ -50,11 +50,11 @@ p {
 }
 
 a {
-  color: $sponge_yellow;
+  color: $ipvp_light_blue;
   outline: 0;
 
   &:hover, &:focus, &:active, &.active {
-    color: $sponge_yellow;
+    color: $ipvp_light_blue;
     outline: 0;
   }
 }
@@ -71,6 +71,10 @@ h1, h2, h3, h4, h5, h6 {
   &:focus, &:active, &.active {
     outline: 0;
   }
+
+  a {
+    color: #fff;
+  }
 }
 
 .btn-outline {
@@ -81,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all .3s ease-in-out;
 
   &:hover, &:focus, &:active, &.active {
-    color: $sponge_yellow;
+    color: $ipvp_light_blue;
     background-color: white;
   }
 }

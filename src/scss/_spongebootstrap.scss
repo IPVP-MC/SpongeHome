@@ -32,14 +32,14 @@
   border: 1px solid $sponge_grey;
 
   &:hover {
-    background-color: $sponge_yellow;
+    background-color: $ipvp_light_blue;
     color: $sponge_grey;
     border: 1px solid $sponge_dark_yellow;
   }
 }
 
 .btn-primary.current {
-  background-color: $sponge_yellow;
+  background-color: $ipvp_light_blue;
   color: $sponge_grey;
   border: 1px solid $sponge_dark_yellow;
   transition: all .3s ease-in-out;

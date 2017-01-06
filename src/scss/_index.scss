@@ -36,26 +36,27 @@
     }
 
     .logo {
-      height: 256px;
-      width: 256px;
+      height: 512px;
+      width: 512px;
       padding: 28px;
     }
 
     .intro-text {
       .name {
-        color: $sponge_dark_grey;
+        color: #FFFFFF;
         font-size: 3em;
-        padding-top: 0.4em;
+        padding-top: 2em;
       }
 
       .skills {
         font-size: 1.5em;
-        color: rgba(0, 0, 0, 0.8);
+        color: rgba(255, 255, 255, 0.8);
       }
     }
 
     @media (min-width: 768px) {
       .container {
+        padding-top: 2em;
         padding: 40px 0;
       }
 

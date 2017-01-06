@@ -47,7 +47,7 @@
   i {
     font-size: 3em;
   }
-  
+
   a {
     color: rgba(17, 17, 17, 0.6);
     text-decoration: none;
@@ -98,7 +98,7 @@
 
 #contribute, #about {
   background-attachment: fixed;
-  background-image: url(../img/backgrounds/about.jpg);
+  background-image: url(../img/backgrounds/break.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -183,7 +183,7 @@
     }
 
     &:hover i {
-      color: $sponge_yellow;
+      color: $ipvp_light_blue;
     }
   }
 }
