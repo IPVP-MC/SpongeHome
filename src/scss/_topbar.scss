@@ -387,7 +387,7 @@ $sp_logo_width: 200px;
     border-right-color: #414141;
     width: 10px;
     position: absolute;
-    left: -30px;
+    left: -20px;
     height: 0px;
     top: 50%;
     -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%);transform: translateY(-50%);
@@ -501,4 +501,7 @@ $sp_logo_width: 200px;
     margin-right: auto;
     margin-left: auto;
     max-width: 1170px;
+}
+.site-header .brand:hover .dropdown ul {
+    padding: 0;
 }
